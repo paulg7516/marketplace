@@ -91,7 +91,8 @@
   .card-desc { font-size: 14px; color: var(--ink-2); margin: 13px 0 15px; flex: 1; }
   .works { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-bottom: 18px; }
   .works .wl { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; margin-right: 2px; }
-  .pill { font-size: 12px; font-weight: 500; color: var(--ink-2); background: var(--bg); border: 1px solid var(--border-2); padding: 3px 9px; border-radius: 999px; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--ink-2); background: var(--bg); border: 1px solid var(--border-2); padding: 4px 11px 4px 8px; border-radius: 999px; }
+  .pill .pillico { width: 15px; height: 15px; flex: none; }
   .card-foot { display: flex; align-items: center; gap: 10px; margin-top: auto; }
   .btn { flex: 1; text-align: center; font-size: 14px; font-weight: 600; padding: 10px 14px; border-radius: 9px; transition: background .15s, border-color .15s; cursor: pointer; }
   .btn-primary { background: var(--accent); color: #fff; }
@@ -169,7 +170,10 @@
         <div class="card-name">Daybreak</div>
         <div class="card-pub">Email &amp; focus</div>
         <p class="card-desc">An Outlook add-in for declared-intent triage. Senders tag what they need - a decision, your input, or an FYI - so you open one clean queue of only what's waiting on you.</p>
-        <div class="works"><span class="wl">Works with</span><span class="pill">Microsoft Outlook</span><span class="pill">Microsoft 365</span></div>
+        <div class="works"><span class="wl">Works with</span>
+          <span class="pill"><svg class="pillico" viewBox="0 0 32 32" aria-hidden="true"><path fill="#0072c6" d="M19.484 7.937v5.477l1.916 1.205a.5.5 0 0 0 .21 0l8.238-5.554a1.174 1.174 0 0 0-.959-1.128Z"/><path fill="#0072c6" d="m19.484 15.457l1.747 1.2a.52.52 0 0 0 .543 0c-.3.181 8.073-5.378 8.073-5.378v10.066a1.408 1.408 0 0 1-1.49 1.555h-8.874zm-9.044-2.525a1.61 1.61 0 0 0-1.42.838a4.13 4.13 0 0 0-.526 2.218A4.05 4.05 0 0 0 9.02 18.2a1.6 1.6 0 0 0 2.771.022a4 4 0 0 0 .515-2.2a4.37 4.37 0 0 0-.5-2.281a1.54 1.54 0 0 0-1.366-.809"/><path fill="#0072c6" d="M2.153 5.155v21.427L18.453 30V2Zm10.908 14.336a3.23 3.23 0 0 1-2.7 1.361a3.19 3.19 0 0 1-2.64-1.318A5.46 5.46 0 0 1 6.706 16.1a5.87 5.87 0 0 1 1.036-3.616a3.27 3.27 0 0 1 2.744-1.384a3.12 3.12 0 0 1 2.61 1.321a5.64 5.64 0 0 1 1 3.484a5.76 5.76 0 0 1-1.035 3.586"/></svg>Microsoft Outlook</span>
+          <span class="pill"><svg class="pillico" viewBox="0 0 256 256" aria-hidden="true"><path fill="#f1511b" d="M121.666 121.666H0V0h121.666z"/><path fill="#80cc28" d="M256 121.666H134.335V0H256z"/><path fill="#00adef" d="M121.663 256.002H0V134.336h121.663z"/><path fill="#fbbc09" d="M256 256.002H134.335V134.336H256z"/></svg>Microsoft 365</span>
+        </div>
         <div class="card-foot"><a class="btn btn-primary" href="https://paulg7516.github.io/daybreak/">Get it now</a></div>
       </div>
     </article>
@@ -187,7 +191,10 @@
         <div class="card-name">Nowtify</div>
         <div class="card-pub">Alerting</div>
         <p class="card-desc">An ambient screen-edge pulse for the alerts you can't miss - major incidents and SLA breaches light up the border of your screen, no extra dashboard to watch.</p>
-        <div class="works"><span class="wl">Works with</span><span class="pill">Jira Service Management</span><span class="pill">Microsoft Teams (soon)</span></div>
+        <div class="works"><span class="wl">Works with</span>
+          <span class="pill"><svg class="pillico" viewBox="0 0 256 256" aria-hidden="true"><defs><linearGradient id="jira1" x1="98.031%" x2="58.888%" y1=".161%" y2="40.766%"><stop offset="18%" stop-color="#0052cc"/><stop offset="100%" stop-color="#2684ff"/></linearGradient><linearGradient id="jira2" x1="100.665%" x2="55.402%" y1=".455%" y2="44.727%"><stop offset="18%" stop-color="#0052cc"/><stop offset="100%" stop-color="#2684ff"/></linearGradient></defs><path fill="#2684ff" d="M244.658 0H121.707a55.5 55.5 0 0 0 55.502 55.502h22.649V77.37c.02 30.625 24.841 55.447 55.466 55.467V10.666C255.324 4.777 250.55 0 244.658 0"/><path fill="url(#jira1)" d="M183.822 61.262H60.872c.019 30.625 24.84 55.447 55.466 55.467h22.649v21.938c.039 30.625 24.877 55.43 55.502 55.43V71.93c0-5.891-4.776-10.667-10.667-10.667"/><path fill="url(#jira2)" d="M122.951 122.489H0c0 30.653 24.85 55.502 55.502 55.502h22.72v21.867c.02 30.597 24.798 55.408 55.396 55.466V133.156c0-5.891-4.776-10.667-10.667-10.667"/></svg>Jira Service Management</span>
+          <span class="pill"><svg class="pillico" viewBox="0 0 256 256" aria-hidden="true"><path fill="#f1511b" d="M121.666 121.666H0V0h121.666z"/><path fill="#80cc28" d="M256 121.666H134.335V0H256z"/><path fill="#00adef" d="M121.663 256.002H0V134.336h121.663z"/><path fill="#fbbc09" d="M256 256.002H134.335V134.336H256z"/></svg>Microsoft 365</span>
+        </div>
         <div class="card-foot"><a class="btn btn-primary" href="https://github.com/paulg7516/nowtify">Get it now</a></div>
       </div>
     </article>
